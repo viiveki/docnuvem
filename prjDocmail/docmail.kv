@@ -1,0 +1,48 @@
+BoxLayout:
+    orientation: 'vertical'
+
+    # Barra superior com opções de menu
+    BoxLayout:
+        size_hint_y: None
+        height: '50dp'
+        padding: '10dp'
+        spacing: '10dp'
+
+        Button:
+            text: 'Início'
+            text: 'Mensagem'
+        Button:
+            text: 'Cad. Plano'
+        Button:
+            text: 'Cad. Cliente'
+        Button:
+            text: 'Cad. E-mail'
+        Button:
+            text: 'Sair'
+
+    # Grid com os ícones principais
+    GridLayout:
+        cols: 4
+        size_hint_y: None
+        height: '150dp'
+        padding: '20dp'
+        spacing: '20dp'
+
+        Button:
+            text: 'Mensagem'
+            background_normal: ''
+            background_color: (0.6, 0.8, 1, 1)
+        Button:
+            text: 'Plano'
+            background_normal: ''
+            background_color: (0.6, 0.8, 1, 1)
+        Button:
+            text: 'Cliente'
+            background_normal: ''
+            background_color: (0.6, 0.8, 1, 1)
+        Button:
+            text: 'E-mail'
+            background_normal: ''
+            background_color: (0.6, 0.8, 1, 1)
+    
+    BoxLayout:
